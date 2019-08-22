@@ -70,3 +70,19 @@ body{
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: bold;
 }
+
+.sobre{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.sobre__card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre__card img{
+    width: 200px;
+}
