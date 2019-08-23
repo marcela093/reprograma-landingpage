@@ -75,14 +75,69 @@ body{
     display: flex;
     justify-content: space-around;
     padding: 40px;
+    width: 100%;
 }
 
 .sobre__card{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 80%;
+}
+
+.sobre__card h1{
+    font-size: 28px;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
 }
 
 .sobre__card img{
-    width: 200px;
+    width: 125px;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+.sobre__card div{
+    display: inline-block;
+    max-width: 400;
+    color: #737373;
+    font-weight: 580px;
+    margin-top: 0;
+    width: 50%
+}
+
+h2{
+    font-size: 28px;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 400px;
+    letter-spacing: 3px; /*add espaço entre as letras */
+}
+
+.como-funciona__conteudo{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 580px;
+}
+
+.como-funciona__conteudo span{
+    font-weight: bold;
+}
+
+.como-funciona__img{
+    width: 150px;
+}
+
+.como-funciona__passo{
+    width: 25%;
+    display: inline-block;
+    color: #737373;
+    text-align: center;
+    font-weight: 580px;
 }
