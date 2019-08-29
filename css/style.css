@@ -15,7 +15,7 @@ body{
     background-color: #000000;
     width: 100%;
     font-size: 13px;
-    
+    position: fixed;
 }
 
 .topbar__menu{
@@ -163,6 +163,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 370px;
 }
 
 .servicos__card{
@@ -174,7 +175,7 @@ h2{
     border-radius: 10px;
     color: #ffffff;
     text-align: center;
-    position: relative;
+    
 }
 
 .servicos>h2{
@@ -226,6 +227,19 @@ h2{
     padding: 6px 247px 6px 0;
     font-size: 100%;
     margin-top: 20px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.newsletter__button{
+    background-color: #2b002b;
+    color: #ffffff;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 9px;
+    margin-left: -5px;
 }
 
 footer>div{
@@ -237,6 +251,7 @@ footer>div{
     padding-top: 10px;
 }
 
+
 footer ul li{
     list-style: none;
 }
@@ -244,14 +259,29 @@ footer ul li{
 footer ul a{
     text-decoration: none;
     color: white;
+    font-size: 15px;
 }
 
 .footer__brand {
     font-size: 13px;
+    color: #ffffff;
 }
 
 .footer__brand span {
     font-style: italic;
     font-weight: lighter;
+}
+
+.footer__brand a{
+    color: #ffffff;
+}
+
+.footer__redes{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+footer img{
+    border-radius: 
 }
 
